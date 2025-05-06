@@ -24,7 +24,7 @@ public class CustomerController {
 
     @RequestMapping(method = RequestMethod.GET)
     public List<Customer> listAllCustomers(){
-        log.debug("Customer Controller - Listing all customers");
+        log.debug("Customer Controller - Listing all customers for lolz");
         return customerService.listAllCustomers();
     }
 
